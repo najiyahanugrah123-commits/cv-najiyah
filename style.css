@@ -1,0 +1,207 @@
+/* Reset Basic & Global Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background-color: #f7fafc;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header / Profile Styling */
+header {
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #319795;
+}
+
+.profile-info h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+.profile-info .nickname {
+    font-size: 1rem;
+    color: #cbd5e0;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.profile-info .title {
+    font-size: 1.1rem;
+    color: #319795;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.profile-info .origin {
+    font-size: 0.9rem;
+    color: #e2e8f0;
+    margin-bottom: 12px;
+}
+
+.profile-info .bio {
+    font-size: 0.95rem;
+    color: #e2e8f0;
+}
+
+/* Typography & Section Styling */
+h2 {
+    font-size: 1.8rem;
+    color: #1a202c;
+    border-bottom: 3px solid #319795;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.card h3 {
+    color: #2b6cb0;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 0.85rem;
+    color: #718096;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.skills-grid .card {
+    flex: 1;
+}
+
+/* Contact & Form Styling */
+.contact-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form {
+    flex: 1.5;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form h3 {
+    margin-bottom: 15px;
+    color: #1a202c;
+}
+
+.social-links {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #319795;
+}
+
+.btn {
+    background-color: #319795;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.btn:hover {
+    background-color: #2c7a7b;
+}
+
+a {
+    color: #3182ce;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a202c;
+    color: #a0aec0;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
